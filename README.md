@@ -62,11 +62,11 @@ Deployment создан, количество реплик равно трём.
 
 Nginx отвечает через сервис по порту 9001, multitool отвечает по порту 9002.
 
-5. Ссылка на манифест Deployment - https://github.com/DemoniumBlack/fedorchukds-devops-33-39/blob/main/SRC/deployment.yaml
+5. Ссылка на манифест Deployment - https://github.com/RikLedger/12-Kubernetes-04-hw/blob/main/SRC%20/deployment.yaml
 
-   Ссылка на манифест Service - https://github.com/DemoniumBlack/fedorchukds-devops-33-39/blob/main/SRC/service.yaml
+   Ссылка на манифест Service - https://github.com/RikLedger/12-Kubernetes-04-hw/blob/main/SRC%20/service.yaml
 
-   Ссылка на манифест Pod - https://github.com/DemoniumBlack/fedorchukds-devops-33-39/blob/main/SRC/multitool.yaml
+   Ссылка на манифест Pod - https://github.com/RikLedger/12-Kubernetes-04-hw/blob/main/SRC%20/multitool.yaml
 
 ### Решение задания 2. Создать Service и обеспечить доступ к приложениям снаружи кластера
 
@@ -82,4 +82,4 @@ Nginx отвечает через сервис по порту 9001, multitool �
 
 Приложения доступны по локальному IP ноды, на порту 30007 отвечает nginx, на порту 30008 отвечает multitool.
 
-3. Ссылка на манифест Service - https://github.com/DemoniumBlack/fedorchukds-devops-33-39/blob/main/SRC/service-nodeport.yaml
+3. Ссылка на манифест Service - https://github.com/RikLedger/12-Kubernetes-04-hw/blob/main/SRC%20/service-nodeport.yaml
